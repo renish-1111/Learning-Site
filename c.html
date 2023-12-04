@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VirtualNotes - Students life line</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="shortcut icon" href="asset/3d-rendering-pen-ai-generated-removebg-preview.png" type="image/x-icon">
+
+  <style>
+    body {
+      background-color: black;
+    }
+
+    nav {
+      margin: 20px;
+      border-radius: 10px;
+    }
+
+    .lang-bar {
+      margin: 30px;
+      border-radius: 90px;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    li,
+    ul,
+    p {
+      color: aliceblue;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="asset/3d-rendering-pen-ai-generated-removebg-preview.png" alt="" width="40" height="30"
+          class="d-inline-block align-text-top">
+        VirtualNotes
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About me</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Social Contact
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" target="_blank" href="https://github.com/renish-1111">Git Hub</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" target="_blank"
+                  href="https://www.linkedin.com/in/renish-ponkiya-299939286">Linkdin</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" target="_blank" href="https://www.instagram.com/renish_1111/">Instagram</a>
+              </li>
+      </div>
+    </div>
+  </nav>
+
+  <!-- second nacbar -->
+  <ul class="nav justify-content-center bg-dark lang-bar">
+    <li class="nav-item">
+      <a class="nav-link" aria-current="page" href="c.html">C</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="c++.html">C++</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="html.html">HTML</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="css.html">CSS</a>
+    </li>
+  </ul>
+
+  <!-- contant -->
+  <div class="row">
+    <div class="col-4">
+      <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+        <nav class="nav nav-pills flex-column">
+          <a class="nav-link" href="#item-1">C Tutorial</a>
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link ms-3 my-1" href="#item-1-1">C Home</a>
+            <a class="nav-link ms-3 my-1" href="#item-1-2">C Introduction</a>
+          </nav>
+          <a class="nav-link" href="#item-2">Item 2</a>
+          <a class="nav-link" href="#item-3">Item 3</a>
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link ms-3 my-1" href="#item-3-1">Item 3-1</a>
+            <a class="nav-link ms-3 my-1" href="#item-3-2">Item 3-2</a>
+          </nav>
+        </nav>
+      </nav>
+    </div>
+
+    <div class="col-8">
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true"
+        class="scrollspy-example-2" tabindex="0">
+        <div id="item-1">
+          <h1>C Tutorial</h1>
+
+        </div>
+        <div id="item-1-1">
+          <h2>C Home</h2>
+          <p>Our "Try it Yourself" editor makes it easy to learn C. You can edit code and view the result in your
+            browser:
+          </p>
+          <img src="asset/hello.png" alt="">
+        </div>
+        <div id="item-1-2">
+          <h2>C Introduction</h2>
+          <h3>What is C?</h3>
+          <p>C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972.</p>
+          <p>It is a very popular language, despite being old. The main reason for its popularity is because it is a
+            fundamental language in the field of computer science.</p>
+          <p>C is strongly associated with UNIX, as it was developed to write the UNIX operating system.</p>
+          <h3>Why Learn C?</h3>
+          <ul>
+            <li>It is one of the most popular programming language in the world</li>
+            <li>If you know C, you will have no problem learning other popular programming languages such as Java,
+              Python, C++, C#, etc, as the syntax is similar</li>
+            <li>C is very fast, compared to other programming languages, like Java and Python</li>
+            <li>C is very versatile; it can be used in both applications and technologies</li>
+          </ul>
+        </div>
+        <div id="item-2">
+          <h4>Item 2</h4>
+          <p>...</p>
+        </div>
+        <div id="item-3">
+          <h4>Item 3</h4>
+          <p>...</p>
+        </div>
+        <div id="item-3-1">
+          <h5>Item 3-1</h5>
+          <p>...</p>
+        </div>
+        <div id="item-3-2">
+          <h5>Item 3-2</h5>
+          <p>...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
